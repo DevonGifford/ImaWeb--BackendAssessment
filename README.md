@@ -3,7 +3,6 @@
    <h3>Backend Technical Assessment</h3>
    <p><em>Implement TTL Caching Layer in JavaScript:</em><p>
 </div>
-<br/>
 
 
 # Introduction
@@ -26,29 +25,26 @@ This repository serves as the solution for the backend developer technical asses
 The main goal of this assessment was to create a caching layer in JavaScript that operates on the client side. This caching layer was designed as a cache class, featuring methods that interact with the API selectively based on specific requirements. The result is the retrieval of cached response data, minimizing unnecessary API calls.
 
 
-## Objectives:
-- <strong>Constructor and API Injection ✔ </strong>
-<br/>
+### Objectives:
+- <strong>Constructor and API Injection ✔ </strong><br/>
 <em>The cache class constructor is responsible for initializing the cache object. It accepts an instance of the API service, allowing seamless integration.</em>
 
-- <strong>Data Fetching Rules ✔ </strong>
-<br/>
+- <strong>Data Fetching Rules ✔ </strong><br/>
 <em>The caching layer employs specific rules to determine whether to fetch data from the API or retrieve it from the cache. These rules ensure that data remains fresh and up-to-date.</em>
 
-- <strong>Cache Class Methods ✔ </strong>
-<br/>
+- <strong>Cache Class Methods ✔ </strong><br/>
 <em>The cache class is equipped with two fundamental methods:</em>
 
-  - <strong>get(identifier, force) ✔ </strong>
-<br/>
+  - <strong>get(identifier, force) ✔ </strong><br/>
 <em>The get method retrieves data from the API, utilizing an identifier. Additionally, it offers a force option to explicitly trigger data fetching.</em>
 
-  - <strong>setCacheRefresh(ttl) ✔ </strong>
-<br/>
+  - <strong>setCacheRefresh(ttl) ✔ </strong><br/>
 <em>This method sets the time-to-live (TTL) for cached data, specifying how long it remains considered fresh.</em>
 
+<br/>
 
-## Testing
+
+### Testing
 The assessment included built-in tests. Additionally, to validate the functionality of the solution, manual tests were conducted in the local development environment.
 
 To see expected results vs. actual results, run the provided tests. You can refer to the "Running Locally" section below. 
@@ -59,7 +55,7 @@ To see expected results vs. actual results, run the provided tests. You can refe
 
 <br/>
 
-## Additional Notes & Self-Assessment
+### Additional Notes & Self-Assessment
 I found the assessment to be challenging but ultimately rewarding. It pushed me to think critically about using classes again. Luckily, I had just been looking at various OOP concepts, which greatly helped with this task because of the familiarity I gained with class-based structures.
 
 Furthermore, I found the time constraint to be both stimulating and demanding. It encouraged me to prioritize tasks efficiently and maintain a focus on clean, effective code. The manual tests in the local development environment were instrumental in gaining confidence in the caching layer's functionality. 
