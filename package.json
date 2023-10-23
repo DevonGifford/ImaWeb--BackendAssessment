@@ -1,0 +1,21 @@
+{
+  "name": "imaweb--backend-assessment",
+  "version": "1.0.0",
+  "description": "My local copy of the technical assessment given by NextLane/ImaWeb",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "birds": "node testing/fetchBirds.mjs",
+    "cats": "node testing/fetchCats.mjs",
+    "dogs": "node testing/fetchDogs.mjs",
+    "start": "node testing/fetchAnimals.mjs"
+  },
+  "keywords": [],
+  "author": "Devon Gifford",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+
+  }
+}
